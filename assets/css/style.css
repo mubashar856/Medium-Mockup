@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+head, body {
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar-section {
+    height: 80px;
+    display: block;
+    background-color: yellow;
+}
+
+.notification-bar-section {
+    height: 50px;
+    display: block;
+    background-color: lightblue;
+}
+
+.main-area-container {
+    display: flex;
+    margin: 0 150px;
+    background-color: lightcoral;
+    min-height: 100px;
+}
+
+.content-section {
+    width: 70%;
+    min-width: 500px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.left-bar-section {
+    width: 30%;
+    height: 100px;
+    min-width: 300px;
+    background-color: blueviolet;
+}
