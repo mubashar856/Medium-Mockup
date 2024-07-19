@@ -59,4 +59,10 @@ head, body {
 }
 .content-section button:hover {
   background-color: rgb(31, 83, 166);
+}
+.content-section .content-line {
+  width: 90%;
+  height: 0.4px;
+  background-color: #e9e9e9;
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */
